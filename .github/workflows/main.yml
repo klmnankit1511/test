@@ -22,7 +22,7 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: build
-          path: /build
+          path: build
   deploy:
     name: Deploy
     needs: build
